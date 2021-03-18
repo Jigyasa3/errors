@@ -1,0 +1,29 @@
+GeneRax was called as follow:
+generax -f families.method2.txt -s hosttree-treponemacog0099_generax.nwk -p cog0099_method2 
+
+Parameters summary: 
+Families information: families.method2.txt
+Species tree: hosttree-treponemacog0099_generax.nwk
+Species Strategy: SPR
+Strategy: SPR
+Reconciliation model: UndatedDTL
+DTL rates: global rates
+Prefix: cog0099_method2
+Unrooted reconciliation likelihood: OFF
+Prune species tree: OFF
+Reconciliation radius: 0
+MPI Ranks: 1
+Max gene SPR radius: 5
+Gene support threshold: -1
+Reconciliation likelihood weight: 1
+Random seed: 123
+Infer ML reconciliation: ON
+
+[00:00:00] Filtering invalid families...
+
+Error in family family_1: Mismatch between gene tree leaves and sequence labels
+WARNING!!! Found 1 invalid families (they will be discarded from the analysis)
+hey
+[00:00:00] Filtering invalid families based on the starting species tree...
+
+[Error] No valid families! Aborting GeneRax
